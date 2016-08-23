@@ -5,4 +5,4 @@
 # 웹접근성
 **누구나** 모든 사람이 쉽게 서비스를 활용할수 있어야 하는것  
 [웹](https://github.com/younhyerim/younhyerim.githud.io/commit/0cf133d404ce2b8987b3b2a3b5d87e356c4f04a9)  
-[이미지](시작화명이용PNG 이미지(.png))
+[이미지](JPEG 이미지(.jpg/고양이)
