@@ -1,0 +1,38 @@
+@media screen and (min-width:768px) and (max-width:1399px){
+    html, body, a{font-family: 'Nanum Gothic', sans-serif;}
+    body{width: 100%; overflow-x: hidden;}
+    
+     #addbanner{width: 100%;min-height:300px;height:39.0625vw; }
+    .banner{width: 100%;height: 100%;background-image: url(../headerimg/evebanner.png);background-size:100%;background-position: center;background-repeat: no-repeat; background-attachment: fixed;background-position:0 80px;}
+    p{width:100%;height:20px;margin: 0 auto;color:#8f858e;font-size:0.8rem; font-family: 'Nanum Gothic', sans-serif;}
+    #artt{width:100%;height: 70.203125vw;
+     }
+    #artt>ul{width: 100%;height:100%;margin: 0 auto;}
+    #artt>ul>li{width: 25%;height:29.947916vw;float:left;transition:.5s;box-sizing:border-box;padding:1px;}
+    #artt>ul>li>a{display:block;width: 100%;height: 100%;background-position: center;background-repeat: no-repeat;background-size:cover;transition:.5s;}
+    
+    .rouge_1 a{background-image: url(../headerimg/eve1.png);}
+    .rouge_1:hover a{background-image: url(../headerimg/eve1-1.png);}
+    .rouge_2 a{background-image: url(../headerimg/eve2.png);}
+    .rouge_2:hover a{background-image: url(../headerimg/eve2-2.png);}
+    .rouge_3 a{background-image:url(../headerimg/eve3.png);}
+    .rouge_3:hover a{background-image:url(../headerimg/eve3-3.png);}
+    .rouge_4 a{background-image: url(../headerimg/eve4.png);}
+    .rouge_4:hover a{background-image: url(../headerimg/eve4-4.png);}
+    .rouge_5 a{background-image: url(../headerimg/eve5.png);}
+    .rouge_5:hover a{background-image: url(../headerimg/eve5-5.png);}
+    .rouge_6 a{background-image: url(../headerimg/eve6.png);}
+    .rouge_6:hover a{background-image: url(../headerimg/eve6-6.png);}
+    .rouge_7 a{background-image: url(../headerimg/eve7.png);}
+    .rouge_7:hover a{background-image: url(../headerimg/eve7-7.png);}
+    .rouge_8 a{background-image: url(../headerimg/eve8.png);}
+    .rouge_8:hover a{background-image: url(../headerimg/eve8-8.png);}
+    
+
+    
+    
+    
+    
+    
+    
+}

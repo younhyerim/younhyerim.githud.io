@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html, body, a{font-family: 'Nanum Gothic', sans-serif;}
+@media screen and (min-width:1400px){
+    body{width: 100%;height:auto;}
+   
+    #addbanner{width: 100%;min-height:550px;height:39.285714vw; }
+    .banner{width: 100%;height: 100%;background-image: url(../headerimg/evebanner.png);background-size:100%;background-position: center;background-repeat: no-repeat; background-attachment: fixed;background-position:0 70px}
+    #artt{width:1380px;height:831px;
+    margin: 0 auto;margin-bottom:100px; }
+    p{width:1380px;height:16px;margin: 0 auto;color:#8f858e;font-size:1rem;margin-top:15px;margin-bottom: 15px; font-family: 'Nanum Gothic', sans-serif;}
+    #artt>ul{width: 100%;height: 100%;}
+    #artt>ul>li{width: 341px;height: 412px;float:left;margin:1px;background-position: center;background-repeat: no-repeat;background-size: cover;transition:.5s; }
+    #artt>ul>li:nth-child(1){margin-left:5px}
+    #artt>ul>li:nth-child(5){margin-left:5px;}
+    .rouge_1{background-image: url(../headerimg/eve1.png);}
+    .rouge_1:hover{background-image: url(../headerimg/eve1-1.png);}
+    .rouge_2{background-image: url(../headerimg/eve2.png);}
+    .rouge_2:hover{background-image: url(../headerimg/eve2-2.png);}
+    .rouge_3{background-image:url(../headerimg/eve3.png);}
+    .rouge_3:hover{background-image:url(../headerimg/eve3-3.png);}
+    .rouge_4{background-image: url(../headerimg/eve4.png);}
+    .rouge_4:hover{background-image: url(../headerimg/eve4-4.png);}
+    .rouge_5{background-image: url(../headerimg/eve5.png);}
+    .rouge_5:hover{background-image: url(../headerimg/eve5-5.png);}
+    .rouge_6{background-image: url(../headerimg/eve6.png);}
+    .rouge_6:hover{background-image: url(../headerimg/eve6-6.png);}
+    .rouge_7{background-image: url(../headerimg/eve7.png);}
+    .rouge_7:hover{background-image: url(../headerimg/eve7-7.png);}
+    .rouge_8{background-image: url(../headerimg/eve8.png);}
+    .rouge_8:hover{background-image: url(../headerimg/eve8-8.png);}
+    
+      
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

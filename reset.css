@@ -1,0 +1,21 @@
+html, body{width: 100%; height: 100%;}
+html,body,h1,h2,h3,p,pre,img,ul,li,ol,dd,dt,div,form,fieldset,
+legend,table,tr,th,input,botton,textarea{margin: 0; padding: 0; border: 0; font-size:normal ;
+font-size: 100%; line-height: 1.2; font-family:"myriad pro,arial,dotum,malgungothic,sams-serif";
+color: #333;}
+ul,ol,li{list-style: none;}
+a:after{content: ""; display: block; clear: both;} 
+a{text-decoration: none; color:#555; }
+table,thead,tbody,tr,td,th{border-collapse: collapse; border-spacing: 0;
+border: 1px solid #faa; border-left: 0; border-right: 0; text-indent: 5px;}
+thead{background-color: aqua; border-bottom: 2px solid #555;}
+button,input[type="button"],[type="submit"]{cursor: pointer;border: 0;}
+a:focus,input:focus,button:focus,texsarea,select{outline: 2px solid rgb(255, 170, 255) ; outline-offset: 3px;
+position: relative;z-index: 1000;}
+ 
+.clearfix{display: block;clear: both;}
+.clearfix:before, .clearfix{content: ""; display: block; clear: both;}
+ 
+.link a{width: 100%; height: 100%; display: block; background-repeat: no-repeat;}
+.hidden, .link a>span{width: 0; height: 0; display: block; overflow: hidden;}
+.ellipsis{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}

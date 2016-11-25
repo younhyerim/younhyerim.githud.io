@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html, body, a,#bor>h2,.box_1>h3,.box1-1,.box_2>h3,.box2-2{font-family: 'Nanum Gothic', sans-serif;}
+@media screen and (min-width:1400px){
+
+    
+    
+    
+    #addbanner{width:50%;height:auto;margin: 0 auto;margin-top:20px}
+    #bor{width: 100%;height: 40px;}
+    #bor>h2{width:100px;height: 40px;color:#2b0828; font-size:2.5rem;font-family: 'Nanum Gothic', sans-serif;
+    float: left;}
+  
+   
+    #joinbox{width:100%;height:auto;margin: 0 auto;margin-top:10px;}
+    .box_1{width:100%;height: 400px;background-color: #f8f8f8;box-shadow:0 10px 5px #edecec;border-radius:1%;box-sizing: border-box;padding:20px 60px 20px;}
+    .box_1>h3{width: 80px;height: 15px;font-size:1.2rem;}
+    .box1-1{width: 100%;height: 80%;overflow:auto;margin: 0 auto;text-align: left;background-color:#fff;font-size:.8rem;margin-top:20px;color:#464646;font-family: 'Nanum Gothic', sans-serif;
+    justify-content:2px;box-sizing: border-box;padding-top:15px;line-height:1.8rem;}
+    .box_1 dl{float: right;margin-top: 20px;}
+    .box_1 dl>dt{float: left;margin-right:5px;font-size:0.9rem;}
+    .box_1 dl>dd{font-size:0.8rem;float:left;font-family: 'Nanum Gothic', sans-serif;color:#7b1c72;font-weight: bold;}
+    
+    
+    .box_2{width:100%;height: 400px;background-color: #f8f8f8;margin-top:30px;box-shadow:0 10px 5px #edecec;border-radius:1%;box-sizing: border-box;padding:20px 60px 20px;}
+     .box_2>h3{width: 150px;height:15px;font-size:1.2rem;}
+    .box2-2{width: 100%;height: 80%;overflow:auto;margin: 0 auto;text-align: left;background-color:#fff;font-size:.8rem;margin-top:20px;color:#464646;font-family: 'Nanum Gothic', sans-serif; justify-content:2px;box-sizing: border-box;padding-top:15px;line-height:1.8rem;}
+    .box_2 dl{float: right;margin-top: 20px;}
+    .box_2 dl>dt{float: left;margin-right:5px;font-size:0.9rem;}
+    .box_2 dl>dd{font-size:0.8rem;float:left;font-family: 'Nanum Gothic', sans-serif;color:#7b1c72;font-weight:bold;}
+
+
+    #btn{width: 300px;height: 50px;margin: 0 auto;margin-top:30px;margin-bottom:100px;}
+    #btn>ul{width: 100%;height: 100%;}
+    #btn>ul>li{width: 140px;height: 100%;float: left;background-color: #2b0828; }
+    #btn>ul>li:last-child{float: right;background-color:#cbc0ca;}
+    #btn>ul>li>button{width: 100%;height: 100%;font-size:1rem;background-color:rgba(0, 255, 255, 0);color:#fff;font-family: 'Nanum Gothic', sans-serif;text-align: center;}
+    #btn>ul>li>button[type="reset"]{color:#001;}
+    #btn>ul>li>button:hover{font-size:1.1rem;font-weight:bold;}
+
+
+}

@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html, body, a,#bor>h2,.box_1>h3,.box1-1,.box_2>h3,.box2-2{font-family: 'Nanum Gothic', sans-serif;}
+@media screen and (min-width:1400px){
+
+
+    #addbanner{width: 40%;height: auto;margin: 0 auto;margin-top:20px}
+   #addbanner>h2{width:100px;height: 40px;color:#2b0828; font-size:2.5rem;font-family: 'Nanum Gothic', sans-serif;
+    float: left;}
+    
+    .fieldset_1{width: 100%; height:auto;}
+    .fieldset_1>dl{width: 100%;height:40px;border:2px solid #e6e5e6;}
+  
+    .fieldset_1>dl>dt{float:left;width: 20%;height: 100%;border-right:2px solid #e6e5e6;box-sizing: border-box;padding:8px 0px 8px;padding-left:25px;}
+    .fieldset_1 dl>dt>label{color:#2e082b;font-family: 'Nanum Gothic', sans-serif;font-size:0.8rem;}
+    
+    
+    
+    
+    .fieldset_1>dl>dd{width: 80%;height: 100%;float:left;box-sizing: border-box;padding:8px 20px 10px;}
+   .fieldset_1>dl>dd>input[type="text"]{height: 100%;background-color:#f7f3f7;font-size:0.9rem;float: left;}
+    .fieldset_1>dl>dd>input[type="email"]{width: 200px;height: 100%;background-color:#f7f3f7;font-size:0.9rem;float: left;}
+    .fieldset_1>dl>dd>input[type="password"]{height: 100%;background-color:#f7f3f7;font-size:0.9rem;float: left;}
+    .fieldset_1>dl>dd>input[type="tel"]{width: 40px;height: 100%;background-color:#f7f3f7;font-size:0.9rem;float: left;margin-right: 10px;float: left;}
+    .fieldset_1>dl>dd>input[type="button"]{width: 30px;height: 100%;font-size: .8rem;color:#fff;background-color:#633f60; float: left;margin-right: 10px;}
+    .fieldset_1>dl>dd>input[type="submit"]{width: 70px;height: 22px;background-color:#633f60;color:#fff;font-family: 'Nanum Gothic', sans-serif;font-size:0.8rem;float:left;margin-left:10px; }
+    .fieldset_1>dl:nth-of-type(2)>dd>input[type="button"]{width: 20%;margin-left:5px;}
+ 
+    .fieldset_1>dl>dd>p{float: left;font-size: .7rem;font-family: 'Nanum Gothic', sans-serif;margin-top: 5px;margin-left:5px;
+    color:#9d9c9c;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .fieldset_2{width: 30%;height:50px;margin-top:30px;margin: 0 auto;}
+    .fieldset_2>ul{width: 100%;height: 100%;}
+    .fieldset_2>ul>li{width:45%;height: 100%;float: left;}
+   
+    .fieldset_2>ul>li>a{text-align: center;margin-top:15px;font-family: 'Nanum Gothic', sans-serif;color:#fff;}
+    .btn_1{background-color: #2e082b;}
+    .btn_2{background-color:#cbc0ca;margin-left:10%;}

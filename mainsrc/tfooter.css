@@ -1,0 +1,26 @@
+@media screen and (min-width:768px) and (max-width:1399px){
+    html, body, a{font-family: 'Nanum Gothic', sans-serif;}
+    body{width: 100%; overflow-x: hidden;}
+     #footerbox{width:100%;height:10.8125vw; position: relative;margin:0 auto;border-top:1px solid #cbcbcb;}
+    #footerbox::after{content:" "; display: block; width: 100vw; height: 100%;
+ ; position: absolute; z-index:-500; left: 50%; margin-left: -50vw; top: 0;}
+    .sns{width:150px;height:60px;
+    box-sizing:border-box;padding:5px 0 10px;margin: 0 auto;}
+    .sns>li{width:40px;height:42px;float:left;background-color: azure;border-radius:50%;background-color:#2e082b;}
+    .sns>li:nth-child(2){margin-left:15px;}
+    .sns>li:last-child{float:right;}
+    .sns>li>a{}
+    .sns>li>a>i{font-size:2rem;text-align: center;color:#fff;margin-left: 8px;margin-top:5px; }
+    .sns>li:first-child > a > i{margin-left: 10px;}
+    
+    
+    .addr{width:700px;height:30px;box-sizing: border-box;margin: 0 auto;padding:10px 0 10px;}
+    .addr>li{height:100%;float:left;border-right:1px solid #2e082b;margin-right:3%;padding-right:3%;}
+    .addr>li>a{display: block;width: 100%;height: 100%;}
+    .addr>li:first-child{margin-left: 80px;}
+    .addr>li:last-child{border-right:none;}
+             
+    .addr>li>a{display: block;width: 100%;height: 100%; color:#2e082b; font-size:0.7rem;}
+    address{width:100%;height: 30%;box-sizing: border-box;padding:1px 0 5px;}
+    address>p{font-style:normal;text-align: center;font-size:0.7rem;color:#2e082b;}
+    

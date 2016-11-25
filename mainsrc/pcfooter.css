@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html, body, a{font-family: 'Nanum Gothic', sans-serif;}
+@media screen and (min-width:1400px){
+    body{width: 100%;height:auto;}
+     #footerbox{width: 1400px; min-height:150px;height:10.714285vw; position: relative;margin:0 auto;margin-top: 20px;border-top:1px solid #cbcbcb;}
+    #footerbox::after{content:" "; display: block; width: 100vw; height: 100%;
+ ; position: absolute; z-index:-500; left: 50%; margin-left: -50vw; top: 0;}
+    .sns{width: 100%;height: 40%;
+    box-sizing:border-box;padding:15px 600px 25px;}
+    .sns>li{width:40px;height:42px;float:left;background-color: azure;border-radius:50%;background-color:#2e082b;}
+    .sns>li:nth-child(2){margin-left:40px;}
+    .sns>li:last-child{float:right;}
+    .sns>li>a{}
+    .sns>li>a>i{font-size:2rem;text-align: center;color:#fff;margin-left: 8px;margin-top:5px; }
+    .sns>li:first-child > a > i{margin-left: 10px;}
+    
+    
+    .addr{width: 100%;height: 30%;box-sizing: border-box;padding:20px 390px 20px; }
+    .addr>li{height:100%;float:left;border-right:1px solid #2e082b;margin-right:3%;padding-right:3%;}
+    .addr>li:last-child{border-right:none;}
+    .addr>li>a{display: block;width: 100%;height: 100%; color:#2e082b; font-size:0.8rem;}
+    address{width: 100%;height: 30%;box-sizing: border-box;padding:10px 0 10px;}
+    address>p{font-style:normal;text-align: center;font-size:0.9rem;color:#2e082b;}
+    

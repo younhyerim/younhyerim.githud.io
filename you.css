@@ -1,0 +1,7 @@
+
+h1{float: left;
+     background-image: url(./headerimg/logo.png); 
+    background-repeat: no-repeat; 
+    background-size:100%;}
+h1>a{display: block; width: 100%;height: 100%;}
+a{display: block;width: 100%;height: 100%;}

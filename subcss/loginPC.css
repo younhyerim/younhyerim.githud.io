@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html, body, a{font-family: 'Nanum Gothic', sans-serif;}
+@media screen and (min-width:1400px){
+    
+    #log{width:40%;height:650px;margin: 0 auto;box-sizing: border-box;padding-top:145px;padding-bottom:20px;}
+    #header_box{width: 100%;height: 35px;}
+    #header_box>h2{font-size:2rem;color:#2d042d;font-family: 'Nanum Gothic', sans-serif;}
+    #in{width: 100%;height:300px;box-sizing: border-box;box-shadow:1px 2px 3px #c4c4c4;background-color:rgba(227, 221, 227, 0.42);}
+    #in>ul{width: 100%;height: 100%;}
+    #in>ul>li{width: 100%;float: left;}
+    .inbox_1{widows: 100%;height:80%;box-sizing: border-box;padding-left:20px;padding-right:80px;padding-top:50px;}
+    .okbox{width:30%;height:65%; background-color:#2d042d;float:right;top: 0;box-sizing: border-box;padding-top:55px;}
+.okbox:hover{border-radius:10%; transition:.5s;}
+    .okbox>a{width:80px;height: 20px;display: block; color: #fff;font-family: 'Nanum Gothic', sans-serif;font-size: 0.9rem;text-align: center;margin: 0 auto;}
+ 
+    .inbox_1>dl{width: 70%;height:35%;float: left;margin: 0 auto;}
+    .inbox_1>dl>dt{width:20%;height:100%;float: left;font-size:1rem;margin-top:1px;}
+    .inbox_1>dl>dt>label{width:40%;color:#2d042d;float: right;margin-top: 10px;}
+    .inbox_1>dl>dd{width:70%;height:100%;float: left;}
+    .inbox_1>dl>dd>input{width: 100%;height:80%;box-sizing: border-box; font-size:.8rem;background-color:#fff;border: 1px solid #f7f3f7;color:#333;padding: 1px 10px 0;}
+    .bnt{display: none;}
+    .inbox_2{width: 100%;height: 20%;float: left;box-sizing: border-box;padding-left:220px;}
+    .inbox_2>div{float: left;font-size: .8rem;box-sizing: border-box;padding-right: 5%; margin-right:5%;border-right: 1px solid #5a5a5a;}
+     .inbox_2>div:last-child{border-right:none;}
+    .inbox_2>div>a{font-family: 'Nanum Gothic', sans-serif;color: #535353;} 
+    
+}
